@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Сәлем, DevOps! Бұл Flask веб-қосымшасы.'
+    return 'Hello DevOps Flask App'
 
 @app.route('/health')
 def health():
